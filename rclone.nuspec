@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>rclone</id>
+    <title>rclone</title>
+    <version>1.27</version>
+    <authors>ncw</authors>
+    <owners>harupong</owners>
+    <summary>rclone - rsync for cloud storage</summary>
+    <description>Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage</description>
+    <projectUrl>http://rclone.org</projectUrl>
+    <tags>rclone</tags>
+    <copyright>Copyright (C) 2012 by Nick Craig-Wood http://www.craig-wood.com/nick/</copyright>
+    <licenseUrl>https://github.com/ncw/rclone/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/rclone.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
