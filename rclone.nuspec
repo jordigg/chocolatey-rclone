@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>rclone</id>
     <title>rclone</title>
-    <version>1.27</version>
+    <version>1.29</version>
     <authors>ncw</authors>
     <owners>harupong</owners>
     <summary>rclone - rsync for cloud storage</summary>
